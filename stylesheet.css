@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: peachpuff;
+
+
+}
+
+
+.menu{
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        box-sizing: border-box;
+
+        .brand{
+            width: 10%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 50px;
+
+            a{
+                width: auto;
+                height: 90%;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #0F0706;
+                font-family: 'Dancing Script', cursive;
+                font-size: 30px;
+
+                
+
+
+
+            }
+
+        }
+        .menu-item{
+            width: 40%;
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start;
+            text-decoration: none;
+
+            
+            
+            a{
+                width: 20%;
+                height: 80%;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+                border-collapse: collapse;
+                color: #0F0706;
+
+
+
+                }
+
+
+
+        }
+        .menu-login{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            margin-right: 50px;
+
+            a{
+                width: 15%;
+                height: 80%;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+                margin-left: 10px;
+                }
+
+                a.login{
+                color: #0F0706;
+                }
+
+                a.sign-up{
+                    background-color: black;
+                    color: white;
+                }
+
+
+        }
+
+
+    }
+
+.main{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+
+    .col1{
+        width: 50%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+        margin: 100px 200px;
+        font-size: 30px;
+    }
+
+    .col2{
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        border-left: 2px solid black;
+        margin-top: 80px;
+        padding: 100px;
+        font-weight: bold;
+
+        .content{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        span{
+         font-size: 70px;
+         margin: 20px 10px;
+        }
+    }
+    }
+}
+
+.temaPelatihan{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-left: 200px;
+
+    .card1, .card2{
+        width: 20%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        border:  3px 3px 5px solid black;        
+    }
+
+    .card2{
+        padding-left: 50px;
+    }
+
+    .card1 span{
+        font-size: 50px;
+    }
+    .card2 span{
+        font-size: 50px;
+    }
+
+
+    .card1 span,h3,p{
+        padding-bottom: 20px;
+    }
+
+    .card2 span,h3,p{
+        padding-bottom: 20px;
+    }
+
+
+
+}
+
